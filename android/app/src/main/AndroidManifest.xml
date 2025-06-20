@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/> <!-- Tambahkan izin internet di sini -->
+
     <application
         android:label="resep_kue"
         android:name="${applicationName}"
